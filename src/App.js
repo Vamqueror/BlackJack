@@ -90,7 +90,7 @@ function App() {
       <button className="optionButton" onClick={draw}>Hit</button>
       <button className="optionButton" onClick={stand}>Stand</button>
       <button className="optionButton" onClick={newGame}>Reset</button>
-      <p className="topLeftLabel">Cards left in deck:{DeckLength}</p>
+      <p className="topLeftLabel label"> Cards left in deck:{DeckLength}</p>
       <h1 className="gameEnd">{status}</h1>
     </div>
   );
