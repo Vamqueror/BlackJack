@@ -1,0 +1,78 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.label{
+  color:whitesmoke
+}
+
+.topLeftLabel{
+  color:whitesmoke;
+  top:0%;
+  left:0%;
+  position: absolute;
+  margin-left: 20px;
+  font-size: 30px;
+}
+
+.logoPos{
+  top:30%;
+  left:65%;
+  max-height: 300px;
+  position: absolute;
+}
+
+.optionButton{
+  margin-left: 5px;
+  margin-right: 5px;
+  background-color: rgb(189, 186, 186);
+  border: none;
+  color: rgb(63, 63, 63);
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 19px;
+  border-radius: 10px;
+}
+
+.optionButton:hover{
+  background-color: rgb(224, 223, 223);
+
+}
+
+.gameEnd{
+  position: absolute;
+  color:whitesmoke;
+  background-color: rgb(60,60,60)  ;
+  text-align: center;
+  z-index: 9;
+  left: 44%;
+  top: 45%;
+}
+
+.card{
+  background-color: rgb(230, 230, 230);
+  margin-left: 20px;
+  margin-right: 20px;
+  border-radius: 10px;
+  max-height: 200px;
+  z-index: 9;
+  transition: 0.5s;
+}
+
+.card:hover{
+  max-height: 230px;
+}
+
+
