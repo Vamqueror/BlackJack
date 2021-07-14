@@ -1,15 +1,4 @@
-/*
-import {fetchGetRequest} from './ServerRequestFunctions.js'
 
-function getFetchedValue(req){
-  let val;
-  fetchGetRequest(req)
-  .then(obj=>{
-    val=obj;
-  })
-  return val;
-}
-*/
 function calcScore(cardsArray) {
   let score = 0
 

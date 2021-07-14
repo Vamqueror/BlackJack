@@ -1,9 +1,6 @@
 import './App.css';
-import './Card.js'
-//import * as appFunctions from './AppFunctions.js'
 import PlayerHand from './PlayerHand';
 import { useEffect, useState } from 'react';
-//import Card from './Card.js';
 import { calcScore, isOver21, updateStatus } from './AppFunctions.js'
 import { fetchGetRequest } from './ServerRequestFunctions.js'
 
